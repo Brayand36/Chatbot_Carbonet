@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARBONET — Gestión del conocimiento y minería</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/chatbot.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="logo">
+          <span class="logo-icon" aria-hidden="true">⛏️</span>
+          <span class="logo-text">CARBONET</span>
+        </div>
+        <div class="nav-links">
+          <a href="#inicio" class="nav-link" data-i18n="nav.home">Inicio</a>
+          <a href="#gkm" class="nav-link" data-i18n="nav.gkm">Gestión del conocimiento</a>
+          <a href="#filosofia" class="nav-link" data-i18n="nav.philosophy">Filosofía del proyecto</a>
+          <a href="#features" class="nav-link" data-i18n="nav.features">Funcionalidades</a>
+          <a href="#" id="nav-open-dashboard" class="nav-link" data-i18n="nav.dashboard">Dashboard</a>
+          <a href="#about" class="nav-link" data-i18n="nav.about">Acerca de</a>
+        </div>
+        <div class="language-selector">
+          <button type="button" id="lang-es" class="lang-btn active" data-lang="es" aria-label="Español">ES</button>
+          <button type="button" id="lang-en" class="lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+      </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1 data-i18n="hero.title">Minería inteligente y gestión del conocimiento con CARBONET</h1>
+        <p data-i18n="hero.subtitle">
+          Tu portal integra muestras, laboratorios, inventario y un asistente bilingüe para el aprendizaje responsable.
+        </p>
+        <div class="hero-buttons">
+          <button type="button" id="btn-dashboard" class="btn btn-primary" data-i18n="hero.btn-dashboard">Ir al Dashboard</button>
+          <button type="button" id="btn-chat" class="btn btn-secondary" data-i18n="hero.btn-chat">Abrir chatbot</button>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="mining-illustration" aria-hidden="true">🏭</div>
+      </div>
+    </section>
+
+    <section id="gkm" class="section-block">
+      <h2 data-i18n="gkm.title">Gestión del conocimiento del estudiante</h2>
+      <p data-i18n="gkm.lead">
+        Este sitio es tu espacio de Gestión del Conocimiento: organiza aprendizajes, consulta módulos operativos y dialoga con el asistente AURO en español o inglés.
+      </p>
+      <ul style="margin-left: 1.25rem; color: #444">
+        <li data-i18n="gkm.b1"></li>
+        <li data-i18n="gkm.b2"></li>
+        <li data-i18n="gkm.b3"></li>
+        <li data-i18n="gkm.b4"></li>
+      </ul>
+    </section>
+
+    <section id="filosofia" class="section-block">
+      <h2 data-i18n="philosophy.landingTitle">Declaración Persona Transhumana</h2>
+      <p data-i18n="philosophy.intro"></p>
+      <div class="declaration-banner">
+        <blockquote data-i18n="declaration.full"></blockquote>
+      </div>
+      <h3 style="text-align: center; margin-bottom: 1rem" data-i18n="values.section_title">Dimensiones humanas y éticas</h3>
+      <div class="pillars-grid">
+        <div class="pillar-card">
+          <h3 data-i18n="values.ethics.title"></h3>
+          <p data-i18n="values.ethics.desc"></p>
+        </div>
+        <div class="pillar-card">
+          <h3 data-i18n="values.autonomy.title"></h3>
+          <p data-i18n="values.autonomy.desc"></p>
+        </div>
+        <div class="pillar-card">
+          <h3 data-i18n="values.human.title"></h3>
+          <p data-i18n="values.human.desc"></p>
+        </div>
+        <div class="pillar-card">
+          <h3 data-i18n="values.transform.title"></h3>
+          <p data-i18n="values.transform.desc"></p>
+        </div>
+        <div class="pillar-card">
+          <h3 data-i18n="values.wellbeing.title"></h3>
+          <p data-i18n="values.wellbeing.desc"></p>
+        </div>
+        <div class="pillar-card">
+          <h3 data-i18n="values.growth.title"></h3>
+          <p data-i18n="values.growth.desc"></p>
+        </div>
+        <div class="pillar-card">
+          <h3 data-i18n="values.social.title"></h3>
+          <p data-i18n="values.social.desc"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2 data-i18n="features.title">Características principales</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📦</div>
+          <h3 data-i18n="features.samples">Gestión de muestras</h3>
+          <p data-i18n="features.samples-desc"></p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔬</div>
+          <h3 data-i18n="features.labs">Gestión de laboratorios</h3>
+          <p data-i18n="features.labs-desc"></p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3 data-i18n="features.inventory">Control de inventario</h3>
+          <p data-i18n="features.inventory-desc"></p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📈</div>
+          <h3 data-i18n="features.reports">Informes mineros</h3>
+          <p data-i18n="features.reports-desc"></p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🔗</div>
+          <h3 data-i18n="features.traceability">Trazabilidad</h3>
+          <p data-i18n="features.traceability-desc"></p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3 data-i18n="features.chatbot">Asistencia IA bilingüe</h3>
+          <p data-i18n="features.chatbot-desc"></p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🧠</div>
+          <h3 data-i18n="features.km">Gestión del conocimiento</h3>
+          <p data-i18n="features.km-desc"></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-strip">
+      <div class="about-card">
+        <h2 data-i18n="about.title">Acerca de este entregable</h2>
+        <p data-i18n="about.body"></p>
+      </div>
+    </section>
+
+    <section id="dashboard" class="dashboard hidden">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h3 data-i18n="dashboard.menu">Menú principal</h3>
+        </div>
+        <nav class="sidebar-nav">
+          <a href="#" class="sidebar-link active" data-section="inicio" data-title-key="dash.title.inicio">
+            <span class="icon">🏠</span>
+            <span data-i18n="menu.home">Inicio</span>
+          </a>
+          <a href="#" class="sidebar-link" data-section="muestras" data-title-key="dash.title.muestras">
+            <span class="icon">📦</span>
+            <span data-i18n="menu.samples">Muestras</span>
+          </a>
+          <a href="#" class="sidebar-link" data-section="laboratorios" data-title-key="dash.title.laboratorios">
+            <span class="icon">🔬</span>
+            <span data-i18n="menu.labs">Laboratorios</span>
+          </a>
+          <a href="#" class="sidebar-link" data-section="inventario" data-title-key="dash.title.inventario">
+            <span class="icon">📊</span>
+            <span data-i18n="menu.inventory">Inventario</span>
+          </a>
+          <a href="#" class="sidebar-link" data-section="informes" data-title-key="dash.title.informes">
+            <span class="icon">📈</span>
+            <span data-i18n="menu.reports">Informes</span>
+          </a>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="transhumanism-declaration">
+            <p data-i18n="philosophy.short">Soy LIBRE, AUTÓNOMO Y RESPONSABLE</p>
+            <p class="declaration-full" data-i18n="declaration.full"></p>
+          </div>
+        </div>
+      </aside>
+
+      <main class="dashboard-main">
+        <header class="dashboard-header">
+          <div class="header-title">
+            <h1 id="section-title">Dashboard CARBONET</h1>
+          </div>
+          <div class="header-actions">
+            <button type="button" id="btn-back-home" class="btn btn-small" data-i18n="btn.back">Volver</button>
+          </div>
+        </header>
+
+        <div class="dashboard-content">
+          <section id="section-inicio" class="content-section active">
+            <div class="welcome-box">
+              <h2 data-i18n="dashboard.welcome">Bienvenido al Dashboard CARBONET</h2>
+              <p data-i18n="dashboard.welcome-desc"></p>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-number">145</div>
+                <div class="stat-label" data-i18n="stats.samples">Muestras</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">8</div>
+                <div class="stat-label" data-i18n="stats.labs">Laboratorios</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">92%</div>
+                <div class="stat-label" data-i18n="stats.efficiency">Eficiencia</div>
+              </div>
+            </div>
+          </section>
+
+          <section id="section-muestras" class="content-section">
+            <h2 data-i18n="samples.title">Gestión de muestras</h2>
+            <div class="module-description">
+              <p data-i18n="samples.description"></p>
+            </div>
+            <div class="module-content">
+              <button type="button" class="btn btn-primary" data-i18n="btn.new-sample">Nueva muestra</button>
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="table.id">ID</th>
+                    <th data-i18n="table.name">Nombre</th>
+                    <th data-i18n="table.date">Fecha</th>
+                    <th data-i18n="table.status">Estado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#S001</td>
+                    <td>Oro — Veta principal</td>
+                    <td>2024-01-15</td>
+                    <td><span class="badge badge-success">OK</span></td>
+                  </tr>
+                  <tr>
+                    <td>#S002</td>
+                    <td>Cobre — Zona sur</td>
+                    <td>2024-01-18</td>
+                    <td><span class="badge badge-warning">Proc.</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="section-laboratorios" class="content-section">
+            <h2 data-i18n="labs.title">Gestión de laboratorios</h2>
+            <div class="module-description">
+              <p data-i18n="labs.description"></p>
+            </div>
+            <div class="module-content">
+              <button type="button" class="btn btn-primary" data-i18n="btn.new-lab">Nuevo laboratorio</button>
+              <div class="labs-grid">
+                <div class="lab-card">
+                  <h3>Laboratorio central</h3>
+                  <p data-i18n="labs.capacity"></p>
+                  <p data-i18n="labs.status"></p>
+                </div>
+                <div class="lab-card">
+                  <h3>Laboratorio análisis químico</h3>
+                  <p data-i18n="labs.capacity"></p>
+                  <p data-i18n="labs.status"></p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="section-inventario" class="content-section">
+            <h2 data-i18n="inventory.title">Control de inventario</h2>
+            <div class="module-description">
+              <p data-i18n="inventory.description"></p>
+            </div>
+            <div class="module-content">
+              <table class="data-table">
+                <thead>
+                  <tr>
+                    <th data-i18n="table.item">Artículo</th>
+                    <th data-i18n="table.quantity">Cantidad</th>
+                    <th data-i18n="table.location">Ubicación</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Recipientes de muestreo</td>
+                    <td>250</td>
+                    <td>Bodega principal</td>
+                  </tr>
+                  <tr>
+                    <td>Químicos de análisis</td>
+                    <td>45</td>
+                    <td>Lab. químico</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="section-informes" class="content-section">
+            <h2 data-i18n="reports.title">Informes mineros</h2>
+            <div class="module-description">
+              <p data-i18n="reports.description"></p>
+            </div>
+            <div class="module-content">
+              <button type="button" class="btn btn-primary" data-i18n="btn.generate-report">Generar reporte</button>
+              <div class="reports-list">
+                <div class="report-item">
+                  <span>Análisis químico muestra #S001</span>
+                  <button type="button" class="btn btn-small" data-i18n="btn.download">Descargar</button>
+                </div>
+                <div class="report-item">
+                  <span>Trazabilidad trimestral Q1 2024</span>
+                  <button type="button" class="btn btn-small" data-i18n="btn.download">Descargar</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </section>
+
+    <div id="chatbot-container" class="chatbot-container" aria-live="polite">
+      <div class="chatbot-header">
+        <div class="chatbot-title">
+          <span class="chatbot-icon" aria-hidden="true">🤖</span>
+          <span data-i18n="chatbot.title">Asistente AURO — CARBONET</span>
+        </div>
+        <button type="button" id="chatbot-close" class="chatbot-close" aria-label="Cerrar">×</button>
+      </div>
+      <div id="chatbot-messages" class="chatbot-messages"></div>
+      <div id="typing-indicator" class="typing-indicator hidden" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="chatbot-input-area">
+        <input type="text" id="chatbot-input" class="chatbot-input" autocomplete="off" />
+        <button type="button" id="chatbot-send" class="chatbot-send" aria-label="Enviar"><span>➤</span></button>
+      </div>
+      <div class="chatbot-actions">
+        <button type="button" id="chatbot-reflect" class="chatbot-action-btn" data-i18n="chatbot.reflect">Módulo reflexivo</button>
+        <button type="button" id="chatbot-clear" class="chatbot-action-btn" data-i18n="chatbot.clear">Limpiar</button>
+      </div>
+    </div>
+
+    <button type="button" id="chatbot-toggle" class="chatbot-toggle" aria-label="Abrir chatbot"><span aria-hidden="true">💬</span></button>
+
+    <script src="js/language.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

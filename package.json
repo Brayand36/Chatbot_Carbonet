@@ -1,0 +1,24 @@
+{
+  "name": "carbonet-chatbot",
+  "version": "1.0.0",
+  "description": "Intelligent bilingual chatbot for CARBONET knowledge and mining management",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": ["chatbot", "mining", "ai", "gemini", "carbonet", "knowledge-management"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "helmet": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "name": "CARBONET Knowledge Base",
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-20",
+    "language": ["es", "en"]
+  },
+  "sections": {
+    "proyecto": {
+      "es": {
+        "titulo": "Acerca del Proyecto CARBONET",
+        "descripcion": "CARBONET es un sistema web innovador desarrollado para solucionar problemas de gestión de muestras mineras en laboratorios. Automatiza procesos que tradicionalmente se realizaban mediante correos electrónicos, documentos físicos y registros manuales.",
+        "beneficios": [
+          "Gestión integral de muestras mineras",
+          "Control centralizado de inventario",
+          "Administración de laboratorios",
+          "Generación de informes detallados",
+          "Trazabilidad completa de muestras",
+          "Automatización de procesos administrativos"
+        ]
+      },
+      "en": {
+        "titulo": "About CARBONET Project",
+        "descripcion": "CARBONET is an innovative web system developed to solve mining sample management problems in laboratories. It automates processes that were traditionally performed through emails, physical documents, and manual records.",
+        "beneficios": [
+          "Comprehensive mining sample management",
+          "Centralized inventory control",
+          "Laboratory administration",
+          "Detailed report generation",
+          "Complete sample traceability",
+          "Automation of administrative processes"
+        ]
+      }
+    },
+    "caracteristicas": {
+      "es": {
+        "titulo": "Características Principales",
+        "items": {
+          "muestras": {
+            "titulo": "Gestión de Muestras",
+            "descripcion": "Registra, visualiza y rastrea todas las muestras mineras. Obtén información sobre origen, estado, análisis y resultados de cada muestra. Soporte para diferentes tipos de minerales y análisis."
+          },
+          "laboratorios": {
+            "titulo": "Gestión de Laboratorios",
+            "descripcion": "Administra múltiples laboratorios, sus capacidades, equipos y procesos disponibles. Asigna muestras a laboratorios según especialización y disponibilidad."
+          },
+          "inventario": {
+            "titulo": "Control de Inventario",
+            "descripcion": "Monitorea en tiempo real recursos, materiales, equipos y reactivos disponibles. Alertas de bajo stock y reportes de uso."
+          },
+          "informes": {
+            "titulo": "Informes Mineros",
+            "descripcion": "Genera reportes detallados de análisis químicos, resultados de trazabilidad y estadísticas. Exportación en múltiples formatos."
+          },
+          "trazabilidad": {
+            "titulo": "Trazabilidad",
+            "descripcion": "Seguimiento completo del ciclo de vida de las muestras desde recolección hasta análisis final. Registro de todas las operaciones realizadas."
+          }
+        }
+      },
+      "en": {
+        "titulo": "Main Features",
+        "items": {
+          "muestras": {
+            "titulo": "Sample Management",
+            "descripcion": "Register, view and track all mining samples. Get information about origin, status, analysis and results of each sample. Support for different mineral types and analyses."
+          },
+          "laboratorios": {
+            "titulo": "Laboratory Management",
+            "descripcion": "Manage multiple laboratories, their capabilities, equipment and available processes. Assign samples to laboratories based on specialization and availability."
+          },
+          "inventario": {
+            "titulo": "Inventory Control",
+            "descripcion": "Real-time monitoring of available resources, materials, equipment and reagents. Low stock alerts and usage reports."
+          },
+          "informes": {
+            "titulo": "Mining Reports",
+            "descripcion": "Generate detailed chemical analysis reports, traceability results and statistics. Export in multiple formats."
+          },
+          "trazabilidad": {
+            "titulo": "Traceability",
+            "descripcion": "Complete tracking of sample lifecycle from collection to final analysis. Record of all operations performed."
+          }
+        }
+      }
+    },
+    "roles": {
+      "es": {
+        "titulo": "Roles del Sistema",
+        "items": {
+          "admin": {
+            "titulo": "Administrador",
+            "descripcion": "Acceso total al sistema. Gestión de usuarios, laboratorios y configuración general.",
+            "permisos": [
+              "Crear y eliminar usuarios",
+              "Administrar laboratorios",
+              "Ver todos los reportes",
+              "Configurar sistema",
+              "Gestionar permisos"
+            ]
+          },
+          "lab": {
+            "titulo": "Técnico de Laboratorio",
+            "descripcion": "Gestiona procesos de análisis en laboratorios. Registra resultados y análisis.",
+            "permisos": [
+              "Registrar análisis",
+              "Actualizar estado de muestras",
+              "Generar reportes técnicos",
+              "Ver muestras asignadas"
+            ]
+          },
+          "operador": {
+            "titulo": "Operador/Supervisor",
+            "descripcion": "Supervisa procesos y gestión de inventario. Realiza seguimiento de muestras.",
+            "permisos": [
+              "Ver estado de muestras",
+              "Gestionar inventario",
+              "Crear reportes de seguimiento",
+              "Supervisar procesos"
+            ]
+          }
+        }
+      },
+      "en": {
+        "titulo": "System Roles",
+        "items": {
+          "admin": {
+            "titulo": "Administrator",
+            "descripcion": "Full system access. User management, laboratories and general configuration.",
+            "permisos": [
+              "Create and delete users",
+              "Manage laboratories",
+              "View all reports",
+              "Configure system",
+              "Manage permissions"
+            ]
+          },
+          "lab": {
+            "titulo": "Laboratory Technician",
+            "descripcion": "Manages analysis processes in laboratories. Records results and analyses.",
+            "permisos": [
+              "Register analyses",
+              "Update sample status",
+              "Generate technical reports",
+              "View assigned samples"
+            ]
+          },
+          "operador": {
+            "titulo": "Operator/Supervisor",
+            "descripcion": "Supervises processes and inventory management. Tracks samples.",
+            "permisos": [
+              "View sample status",
+              "Manage inventory",
+              "Create tracking reports",
+              "Supervise processes"
+            ]
+          }
+        }
+      }
+    },
+    "procesos": {
+      "es": {
+        "titulo": "Procesos Principales",
+        "items": [
+          {
+            "nombre": "Registro de Muestra",
+            "pasos": [
+              "1. Acceder a Gestión de Muestras",
+              "2. Hacer clic en 'Nueva Muestra'",
+              "3. Completar información: origen, tipo, cantidad",
+              "4. Asignar laboratorio",
+              "5. Confirmar registro"
+            ]
+          },
+          {
+            "nombre": "Análisis de Muestra",
+            "pasos": [
+              "1. Técnico recibe muestra",
+              "2. Registra análisis realizados",
+              "3. Ingresa resultados",
+              "4. Genera reporte técnico",
+              "5. Finaliza proceso"
+            ]
+          },
+          {
+            "nombre": "Generación de Informe",
+            "pasos": [
+              "1. Acceder a Informes",
+              "2. Seleccionar tipo de informe",
+              "3. Elegir período o muestras",
+              "4. Generar reporte",
+              "5. Descargar en formato deseado"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "titulo": "Main Processes",
+        "items": [
+          {
+            "nombre": "Sample Registration",
+            "pasos": [
+              "1. Access Sample Management",
+              "2. Click on 'New Sample'",
+              "3. Complete information: origin, type, quantity",
+              "4. Assign laboratory",
+              "5. Confirm registration"
+            ]
+          },
+          {
+            "nombre": "Sample Analysis",
+            "pasos": [
+              "1. Technician receives sample",
+              "2. Records analyses performed",
+              "3. Enters results",
+              "4. Generates technical report",
+              "5. Completes process"
+            ]
+          },
+          {
+            "nombre": "Report Generation",
+            "pasos": [
+              "1. Access Reports",
+              "2. Select report type",
+              "3. Choose period or samples",
+              "4. Generate report",
+              "5. Download in desired format"
+            ]
+          }
+        ]
+      }
+    },
+    "filosofia": {
+      "es": {
+        "titulo": "Declaración Persona Transhumana",
+        "texto": "Soy LIBRE, AUTÓNOMO Y RESPONSABLE a través del diálogo y la construcción, como ideal regulativo; me dirijo, controlo y dicto mis propias leyes.",
+        "pilares": [
+          "Libertad: Autonomía en la toma de decisiones",
+          "Responsabilidad: Uso ético de la tecnología",
+          "Desarrollo humano: Mejora continua",
+          "Sostenibilidad: Impacto positivo en minería",
+          "Ética tecnológica: IA al servicio de personas"
+        ]
+      },
+      "en": {
+        "titulo": "Transhuman Person Declaration",
+        "texto": "I am FREE, AUTONOMOUS AND RESPONSIBLE through dialogue and construction as a regulatory ideal; I direct myself, control myself and dictate my own laws.",
+        "pilares": [
+          "Freedom: Autonomy in decision-making",
+          "Responsibility: Ethical use of technology",
+          "Human development: Continuous improvement",
+          "Sustainability: Positive impact on mining",
+          "Technological ethics: AI serving people"
+        ]
+      }
+    }
+  },
+  "preguntas_frecuentes": {
+    "es": [
+      {
+        "pregunta": "¿Qué es CARBONET?",
+        "respuesta": "CARBONET es un sistema web inteligente para gestionar muestras mineras, laboratorios e inventario de forma automatizada y eficiente."
+      },
+      {
+        "pregunta": "¿Cómo registrar una nueva muestra?",
+        "respuesta": "Accede al Dashboard, selecciona 'Gestión de Muestras', haz clic en 'Nueva Muestra' y completa los datos requeridos."
+      },
+      {
+        "pregunta": "¿Qué idiomas soporta CARBONET?",
+        "respuesta": "CARBONET es completamente bilingüe: soporta Español e Inglés. Puedes cambiar el idioma desde el selector en la navegación."
+      },
+      {
+        "pregunta": "¿Cómo generar un reporte?",
+        "respuesta": "En el Dashboard, selecciona 'Informes', elige el tipo de reporte deseado y haz clic en 'Generar Reporte'."
+      },
+      {
+        "pregunta": "¿Quién puede acceder al sistema?",
+        "respuesta": "El acceso depende del rol: Administrador (acceso total), Técnico Lab (gestión de análisis) y Operador (supervisión)."
+      }
+    ],
+    "en": [
+      {
+        "pregunta": "What is CARBONET?",
+        "respuesta": "CARBONET is an intelligent web system for managing mining samples, laboratories and inventory in an automated and efficient way."
+      },
+      {
+        "pregunta": "How do I register a new sample?",
+        "respuesta": "Access the Dashboard, select 'Sample Management', click 'New Sample' and complete the required data."
+      },
+      {
+        "pregunta": "What languages does CARBONET support?",
+        "respuesta": "CARBONET is fully bilingual: it supports Spanish and English. You can change the language from the selector in the navigation."
+      },
+      {
+        "pregunta": "How do I generate a report?",
+        "respuesta": "In the Dashboard, select 'Reports', choose the desired report type and click 'Generate Report'."
+      },
+      {
+        "pregunta": "Who can access the system?",
+        "respuesta": "Access depends on the role: Administrator (full access), Lab Technician (analysis management) and Operator (supervision)."
+      }
+    ]
+  }
+}
